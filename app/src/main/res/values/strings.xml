@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="regions">
+        <item>中国900MHz</item>
+        <item>中国800MHz</item>
+        <item>美国</item>
+        <item>欧洲</item>
+        <item>韩国</item>
+    </string-array>
+
+    <string-array name="target">
+        <item>S0(000)</item>
+        <item>S1(001)</item>
+        <item>S2(010)</item>
+        <item>S3(011)</item>
+        <item>SL(100)</item>
+        <item>RFU(101)</item>
+        <item>RFU(110)</item>
+        <item>RFU(111)</item>
+    </string-array>
+
+    <string-array name="action">
+        <item>000</item>
+        <item>001</item>
+        <item>010</item>
+        <item>100</item>
+        <item>101</item>
+        <item>110</item>
+        <item>111</item>
+    </string-array>
+
+    <string-array name="mem_bank">
+        <item>RFU</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>User</item>
+    </string-array>
+
+    <string-array name="dr">
+        <item>8</item>
+        <item>64/3</item>
+    </string-array>
+
+    <string-array name="m">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="t_text">
+        <item>No pilot</item>
+        <item>Use pilot</item>
+    </string-array>
+
+    <string-array name="sel">
+        <item>ALL(00)</item>
+        <item>ALL(01)</item>
+        <item>~SL(10)</item>
+        <item>SL(11)</item>
+    </string-array>
+
+    <string-array name="session">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+
+    <string-array name="target_q">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+    <string-array name="q">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="select_mode">
+        <item>0x00(选定)</item>
+        <item>0x01(不选定)</item>
+        <item>0x02(盘存之外)</item>
+    </string-array>
+</resources>

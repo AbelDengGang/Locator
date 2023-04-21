@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/935419642/Location.iml" filepath="$PROJECT_DIR$/.idea/modules/935419642/Location.iml" group="Location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-775994588/RFID_WULIANKEJIR200_cmdlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/-775994588/RFID_WULIANKEJIR200_cmdlibrary.iml" group="Location/RFID_WULIANKEJIR200_cmdlibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="Location/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1376045904/libloc.iml" filepath="$PROJECT_DIR$/.idea/modules/1376045904/libloc.iml" group="Location/libloc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1842595479/usbSerialForAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/-1842595479/usbSerialForAndroid.iml" group="Location/usbSerialForAndroid" />
+    </modules>
+  </component>
+</project>

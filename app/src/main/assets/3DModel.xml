@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes width="8.5" height="0" length="17.0" x="0" y="0" z="0" type="MapItemDrawer_rect" name="market">
+<!--    左下右上   西南东北-->
+    <node width="0.2" length="8.80" height="0" x="2.97" y="8.20" z="0" xangle="90" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_1" />
+    <node width="0.2" length="5.73" height="0" x="2.77" y="16.80" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_2" />
+    <node width="0.2" length="17.0" height="0" x="8.50" y="0" z="0" xangle="90" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_3" />
+    <node width="0.2" length="8.50" height="0" x="8.50" y="0.2" z="0" xangle="180" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_4" />
+    <node width="0.2" length="8.40" height="0" x="0.2" y="0" z="0" xangle="90" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_5" />
+    <node width="0.2" length="2.97" height="0" x="2.97" y="8.40" z="0" xangle="180" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_6" />
+    <node width="0.2" length="1.70" height="0" x="2.97" y="13.40" z="0" xangle="90" yangle="0" zangle="0" type="MapItemDrawer_door" name="door_1" />
+
+    <node type="box" name="room" >
+<!--        经理室-->
+        <node width="0.2" length="4.94" height="0" x="5.15" y="12.06" z="0" xangle="90" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_7" />
+        <node width="0.2" length="3.55" height="0" x="8.50" y="12.26" z="0" xangle="180" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_8" />
+        <node width="0.2" length="0.90" height="0" x="6.25" y="12.26" z="0" xangle="180" yangle="0" zangle="0" type="MapItemDrawer_door" name="door_2" />
+    </node>
+
+    <node type="box" name="room">
+        <node width="0.2" length="3.52" height="0" x="1.40" y="0" z="0" xangle="90" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="wall_9" />
+        <node width="0.2" length="3.52" height="0" x="4.02" y="0" z="0" xangle="90" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_10" />
+        <node width="0.2" length="8.50" height="0" x="0" y="3.52" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_Wall" name="Wall_11" />
+        <node width="0.2" length="0.90" height="0" x="0.30" y="3.52" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_door" name="door_3" />
+        <node width="0.2" length="0.90" height="0" x="2.92" y="3.52" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_door" name="door_4" />
+        <node width="0.2" length="0.90" height="0" x="4.02" y="3.52" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_door" name="door_5" />
+    </node>
+
+    <node width="1.22" length="3.63" height="0" x="4.47" y="9.89" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_desk" name="desk_1" />
+    <node width="1.22" length="4.10" height="0" x="4.00" y="7.27" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_desk" name="desk_2" />
+    <node width="1.22" length="4.10" height="0" x="4.00" y="4.62" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_desk" name="desk_3" />
+    <node width="2.57" length="3.98" height="0" x="2.77" y="4.22" z="0" xangle="90" yangle="0" zangle="0" type="MapItemDrawer_desk" name="desk_4" />
+    <node width="0.55" length="1.05" height="0" x="4.95" y="13.65" z="0" xangle="90" yangle="0" zangle="0" type="MapItemDrawer_desk" name="desk_5" />
+    <node width="0.78" length="1.70" height="0" x="3.15" y="16.00" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_desk" name="desk_6" />
+    <node radius="0.10" x="4.00" y="16.00" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5B547" />
+<!--    <node radius="0.1" x="297" y="1415" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5F147" />-->
+    <node radius="0.1" x="2.97" y="14.15" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E280699500004005EF47B929" />
+    <node radius="0.1" x="4.40" y="14.20" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A5C947" />
+    <node radius="0.1" x="2.97" y="12.40" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A60D47" />
+    <node radius="0.1" x="7.23" y="7.27" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A60947" />
+    <node radius="0.1" x="5.30" y="8.49" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A5D147" />
+    <node radius="0.1" x="4.30" y="8.49" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A5DD47" />
+    <node radius="0.1" x="4.60" y="9.89" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A61947" />
+    <node radius="0.1" x="5.90" y="9.89" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A61147" />
+    <node radius="0.1" x="2.97" y="10.95" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A62147" />
+    <node radius="0.1" x="2.97" y="10.15" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A5F547" />
+    <node radius="0.1" x="2.97" y="9.35" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A5C547" />
+<!--    <node radius="0.1" x="297" y="855" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5FD47" />-->
+    <node radius="0.1" x="2.97" y="8.55" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E280699500005005EF40E929" />
+    <node radius="0.1" x="4.47" y="11.00" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A5F947" />
+    <node radius="0.1" x="4.47" y="10.00" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A62547" />
+    <node radius="0.1" x="4.00" y="8.30" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A61547" />
+    <node radius="0.1" x="6.50" y="8.49" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5E547" />
+    <node radius="0.1" x="6.60" y="9.89" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5E947" />
+    <node radius="0.1" x="5.15" y="12.06" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A61D47" />
+    <node radius="0.1" x="5.15" y="11.11" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5CD47" />
+    <node radius="0.1" x="7.25" y="11.11" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5C147" />
+    <node radius="0.1" x="6.30" y="11.11" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A5ED47" />
+    <node radius="0.1" x="6.45" y="12.06" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A5BD47" />
+    <node radius="0.1" x="7.25" y="12.06" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A60547" />
+    <node radius="0.1" x="2.77" y="7.50" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5D547" />
+    <node radius="0.1" x="4.00" y="7.35" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5B947" />
+    <node radius="0.1" x="2.77" y="6.20" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A60147" />
+    <node radius="0.1" x="2.77" y="5.10" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000400466A5D947" />
+    <node radius="0.1" x="2.77" y="4.35" z="0" xangle="0" yangle="0" zangle="0" type="MapItemDrawer_RFIDTag" name="E28068900000500466A5E147" />
+    <roads name="road_network0">
+        <vertex x="3.60" y="16.00" z="0" name="vertex0001"/>
+        <vertex x="3.60" y="11.60" z="0" name="vertex0002"/>
+        <vertex x="8.30" y="11.60" z="0" name="vertex0003"/>
+        <vertex x="3.60" y="9.19"  z="0" name="vertex0004"/>
+        <vertex x="8.30" y="9.19"  z="0" name="vertex0005"/>
+        <vertex x="8.30" y="6.55"  z="0" name="vertex0006"/>
+        <vertex x="3.60" y="6.55"  z="0" name="vertex0007"/>
+        <vertex x="3.60" y="4.00"  z="0" name="vertex0008"/>
+        <vertex x="8.30" y="4.00"  z="0" name="vertex0009"/>
+        <vertex x="0.20" y="4.00"   z="0" name="vertex0010"/>
+        <arc vertex0="vertex0001" vertex1="vertex0002" width="1.0" name="arc0"/>
+        <arc vertex0="vertex0002" vertex1="vertex0003" width="1.0" name="arc1"/>
+        <arc vertex0="vertex0002" vertex1="vertex0004" width="1.0" name="arc2"/>
+        <arc vertex0="vertex0004" vertex1="vertex0005" width="2.0" name="arc3"/>
+        <arc vertex0="vertex0004" vertex1="vertex0007" width="1.5" name="arc4"/>
+        <arc vertex0="vertex0007" vertex1="vertex0008" width="0.6" name="arc5"/>
+        <arc vertex0="vertex0006" vertex1="vertex0007" width="1.0" name="arc6"/>
+        <arc vertex0="vertex0008" vertex1="vertex0009" width="1.0" name="arc7"/>
+        <arc vertex0="vertex0008" vertex1="vertex0010" width="2.0" name="arc8"/>
+    </roads>
+
+
+</nodes>
+

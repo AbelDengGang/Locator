@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+    implementation 'org.hamcrest:hamcrest-core:1.1'
+    implementation 'junit:junit:4.12'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'org.testng:testng:6.9.6'
+    implementation project(':usbSerialForAndroid')
+    implementation project(':RFID_WULIANKEJIR200_cmdlibrary')
+    implementation group: 'org.ejml', name: 'ejml-all', version: '0.41'
+}
+
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.0'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        minSdkVersion 29
+        targetSdkVersion 30
+    }
+}

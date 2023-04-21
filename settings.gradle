@@ -1,0 +1,3 @@
+include ':libloc'
+include ':app',':usbSerialForAndroid',':RFID_WULIANKEJIR200_cmdlibrary'
+rootProject.name = "Location"

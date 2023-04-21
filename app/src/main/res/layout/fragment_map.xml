@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <!-- TODO: Update blank fragment layout -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/map_draw"
+                android:orientation="horizontal">
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:id="@+id/uwb_draw"
+                    android:layout_width="310px"
+                    android:layout_height="210px"
+                    android:layout_marginRight="0px"
+                    android:layout_marginTop="0px"
+                    android:visibility="visible"
+                    android:layout_gravity="right"
+                    />
+
+                <FrameLayout
+                    android:id="@+id/compass_draw"
+                    android:layout_width="310px"
+                    android:layout_height="210px"
+                    android:layout_marginRight="0px"
+                    android:visibility="visible"
+                    android:layout_gravity="right"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>
